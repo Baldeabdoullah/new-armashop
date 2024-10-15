@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boutique</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-first">
+        <div class="menu-icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+
+        <p>Livraison gratuite à partir de 30000 FCFA</p>
+        <p>Blog</p>
+      </div>
+
+      <hr />
+
+      <div class="search-container">
+        <h2>Armashop</h2>
+
+        <div class="input-container">
+          <input type="text" />
+          <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="search-icons">
+          <i class="fa-regular fa-user fa-2x"></i>
+          <i class="fa-regular fa-heart fa-2x"></i>
+          <div class="shopping-cart-icon">
+            <i class="fa-solid fa-bag-shopping fa-2x" id="cart-button"></i>
+            <span class="shopping-cart-number"></span>
+          </div>
+        </div>
+      </div>
+      <!--CONTENU DU PANIER -->
+      <div class="cart-container">
+        <!-- item de carte -->
+        <!-- <div class="cart-item">
+          <img src="./images/products/clothes-1.jpg" alt="" />
+          <div class="cart-items-text">
+            <p>Produit 1</p>
+            <span class="cart-item-price">30000</span>
+            <span>FCFA</span>
+          </div>
+          <a href="#"><i class="fa-solid fa-trash"></i></a>
+        </div> -->
+        <!-- fin de item de carte -->
+
+        <!-- item de carte -->
+        <!-- <div class="cart-item">
+          <img src="./images/products/clothes-1.jpg" alt="" />
+          <div class="cart-items-text">
+            <p>Produit 3</p>
+            <span class="cart-item-price">30000</span>
+            <span>FCFA</span>
+          </div>
+          <a href="#"><i class="fa-solid fa-trash"></i></a>
+        </div> -->
+        <!-- fin de item de carte -->
+
+        <!--Total-->
+        <div class="cart-total">
+          <p>Total</p>
+          <span class="total-amount"></span>
+          <span>FCFA</span>
+        </div>
+      </div>
+
+      <!-- FIN DU PANIER -->
+
+      <nav class="nav">
+        <div class="toggle-menu">
+          <i class="fa-solid fa-bars fa-2x"></i>
+        </div>
+
+        <div class="nav-container">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="boutique.html">Boutique</a></li>
+            <li><a href="#">Vetements</a></li>
+            <li><a href="#">Bijoux</a></li>
+            <li><a href="#">Parfum</a></li>
+            <li><a href="propos.html">A Propos</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--BOUTIQUE-->
+    <section id="PRODUCT">
+      <h3 class="product-title">Nos produits</h3>
+      <div class="product-container">
+        <div class="product">
+          <div class="product-img">
+            <img
+              src="./images/products/jacket-3.jpg"
+              alt=""
+              class="front-img"
+            />
+            <img src="./images/products/jacket-4.jpg" alt="" class="rear-img" />
+            <div class="product-img-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <a href="./product-detail.html">
+                <i class="fa-regular fa-eye"></i
+              ></a>
+
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+
+          <div class="product-infos">
+            <h5 class="product-infos-title">Veste</h5>
+            <h6 class="product-infos-subname">veste pour homme Levis</h6>
+            <div class="product-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="product-promo">30000 FCFA</p>
+              <p class="product-real-price">35000 FCFA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img src="./images/products/shirt-1.jpg" alt="" class="front-img" />
+            <img src="./images/products/shirt-2.jpg" alt="" class="rear-img" />
+            <div class="product-img-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+
+          <div class="product-infos">
+            <h5 class="product-infos-title">Chemise</h5>
+            <h6 class="product-infos-subname">chemise pour homme Levis</h6>
+            <div class="product-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="product-promo">30000 FCFA</p>
+              <p class="product-real-price">35000 FCFA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img
+              src="./images/products/jacket-5.jpg"
+              alt=""
+              class="front-img"
+            />
+            <img src="./images/products/jacket-6.jpg" alt="" class="rear-img" />
+            <div class="product-img-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+
+          <div class="product-infos">
+            <h5 class="product-infos-title">Veste</h5>
+            <h6 class="product-infos-subname">veste en laine pour hiver</h6>
+            <div class="product-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="product-promo">30000 FCFA</p>
+              <p class="product-real-price">35000 FCFA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img
+              src="./images/products/clothes-3.jpg"
+              alt=""
+              class="front-img"
+            />
+            <img
+              src="./images/products/clothes-4.jpg"
+              alt=""
+              class="rear-img"
+            />
+            <div class="product-img-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+
+          <div class="product-infos">
+            <h5 class="product-infos-title">Jupe</h5>
+            <h6 class="product-infos-subname">jupe courte noir</h6>
+            <div class="product-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="product-promo">30000 FCFA</p>
+              <p class="product-real-price">35000 FCFA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img src="./images/products/shoe-2.jpg" alt="" class="front-img" />
+            <img src="./images/products/shoe-2_1.jpg" alt="" class="rear-img" />
+            <div class="product-img-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+
+          <div class="product-infos">
+            <h5 class="product-infos-title">Chaussures</h5>
+            <h6 class="product-infos-subname">soulier maron pour homme</h6>
+            <div class="product-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="product-promo">20000 FCFA</p>
+              <p class="product-real-price">35000 FCFA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img
+              src="./images/products/bijoux-1.jpg"
+              alt=""
+              class="front-img"
+            />
+            <img src="./images/products/bijoux-2.jpg" alt="" class="rear-img" />
+            <div class="product-img-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+
+          <div class="product-infos">
+            <h5 class="product-infos-title">Bijoux</h5>
+            <h6 class="product-infos-subname">bijoux en diamant pour femme</h6>
+            <div class="product-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="product-promo">3000000</p>
+              <p class="product-real-price">35000000</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img
+              src="./images/products/bijoux-3.jpg"
+              alt=""
+              class="front-img"
+            />
+            <img src="./images/products/bijoux-4.jpg" alt="" class="rear-img" />
+            <div class="product-img-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+
+          <div class="product-infos">
+            <h5 class="product-infos-title">bijoux</h5>
+            <h6 class="product-infos-subname">bague en diamant pour femme</h6>
+            <div class="product-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="product-promo">15000000</p>
+              <p class="product-real-price">25000000</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img src="./images/products/watch-1.jpg" alt="" class="front-img" />
+            <img src="./images/products/watch-2.jpg" alt="" class="rear-img" />
+            <div class="product-img-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+
+          <div class="product-infos">
+            <h5 class="product-infos-title">Montre</h5>
+            <h6 class="product-infos-subname">montre connectee</h6>
+            <div class="product-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="product-promo">18000 FCFA</p>
+              <p class="product-real-price">22000 FCFA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img
+              src="./images/products/party-wear-1.jpg"
+              alt=""
+              class="front-img"
+            />
+            <img
+              src="./images/products/party-wear-2.jpg"
+              alt=""
+              class="rear-img"
+            />
+            <div class="product-img-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+
+          <div class="product-infos">
+            <h5 class="product-infos-title">Chaussures</h5>
+            <h6 class="product-infos-subname">talon pour femme</h6>
+            <div class="product-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="product-promo">30000 FCFA</p>
+              <p class="product-real-price">35000 FCFA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img
+              src="./images/products/jacket-1.jpg"
+              alt=""
+              class="front-img"
+            />
+            <img src="./images/products/jacket-2.jpg" alt="" class="rear-img" />
+            <div class="product-img-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+
+          <div class="product-infos">
+            <h5 class="product-infos-title">Veste</h5>
+            <h6 class="product-infos-subname">veste pour homme Levis</h6>
+            <div class="product-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="product-promo">30000 FCFA</p>
+              <p class="product-real-price">35000 FCFA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img
+              src="./images/products/sports-2.jpg"
+              alt=""
+              class="front-img"
+            />
+            <img src="./images/products/sports-4.jpg" alt="" class="rear-img" />
+            <div class="product-img-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+
+          <div class="product-infos">
+            <h5 class="product-infos-title">Chaussures</h5>
+            <h6 class="product-infos-subname">
+              Chaussures sport pour homme Levis
+            </h6>
+            <div class="product-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="product-promo">22000 FCFA</p>
+              <p class="product-real-price">27000 FCFA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img src="./images/products/shoe-1.jpg" alt="" class="front-img" />
+            <img src="./images/products/shoe-1_1.jpg" alt="" class="rear-img" />
+            <div class="product-img-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+
+          <div class="product-infos">
+            <h5 class="product-infos-title">Chaussures</h5>
+            <h6 class="product-infos-subname">soulier noir pour homme</h6>
+            <div class="product-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="product-promo">23000 FCFA</p>
+              <p class="product-real-price">35000 FCFA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img
+              src="./images/products/shorts-1.jpg"
+              alt=""
+              class="front-img"
+            />
+            <img src="./images/products/shorts-2.jpg" alt="" class="rear-img" />
+            <div class="product-img-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+
+          <div class="product-infos">
+            <h5 class="product-infos-title">Vetement</h5>
+            <h6 class="product-infos-subname">shirt pour sport</h6>
+            <div class="product-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="product-promo">10000 FCFA</p>
+              <p class="product-real-price">15000 FCFA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img
+              src="./images/products/montre-1.jpg"
+              alt=""
+              class="front-img"
+            />
+            <img src="./images/products/montre-2.jpg" alt="" class="rear-img" />
+            <div class="product-img-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+
+          <div class="product-infos">
+            <h5 class="product-infos-title">montre</h5>
+            <h6 class="product-infos-subname">montre en cuir maron</h6>
+            <div class="product-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="product-promo">20000 FCFA</p>
+              <p class="product-real-price">25000 FCFA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img
+              src="./images/products/sports-5.jpg"
+              alt=""
+              class="front-img"
+            />
+            <img src="./images/products/sports-6.jpg" alt="" class="rear-img" />
+            <div class="product-img-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+
+          <div class="product-infos">
+            <h5 class="product-infos-title">Chaussures</h5>
+            <h6 class="product-infos-subname">Chaussures de sport nike</h6>
+            <div class="product-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="product-promo">18000 FCFA</p>
+              <p class="product-real-price">19000 FCFA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- image preview modal -->
+      <div id="preview-modal-overlay">
+        <div id="preview-box">
+          <span id="modal-close-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </span>
+          <img src="" alt="" />
+          <p class="principetext"></p>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+
+    <section id="FOOTER">
+      <div class="footer-container">
+        <div class="footer-item">
+          <h4>Produits</h4>
+          <hr />
+          <ul>
+            <li><a href="#">Promotion</a></li>
+            <li><a href="#">Nouveauté</a></li>
+            <li><a href="#">Meilleurs ventes</a></li>
+            <li><a href="#">Contactez nous</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-item">
+          <h4>Notre société</h4>
+          <hr />
+          <ul>
+            <li><a href="#">Livraison</a></li>
+            <li><a href="#">Notice légal</a></li>
+            <li><a href="#">terms et conditions</a></li>
+            <li><a href="#">Paiement sécurisé</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-item">
+          <h4>Contacte</h4>
+          <hr />
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-location-dot"></i>avenue 10 rond point
+                7</a
+              >
+            </li>
+
+            <li>
+              <a href="#"> <i class="fa-solid fa-phone"></i>(+221) 45 67 45</a>
+            </li>
+
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-envelope"></i>infos@armashop.com</a
+              >
+            </li>
+
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-money-bill"></i>Paiement sécurisé</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="paiement">
+        <div>
+          <img src="./images/payment.png" alt="" />
+        </div>
+
+        <div>
+          <a href="https://abdoullahbalde.com/">
+            crée Avec passion par Abdoullah Balde</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="./js/modal-product.js"></script>
+  </body>
+</html>

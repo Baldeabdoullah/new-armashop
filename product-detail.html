@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+
+      <link rel="stylesheet" href="style.css" />
+
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+
+      <!-- Link Swiper's CSS -->
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+      />
+    </head>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-first">
+        <div class="menu-icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+
+        <p>Livraison gratuite à partir de 30000 FCFA</p>
+        <p>Blog</p>
+      </div>
+
+      <hr />
+
+      <div class="search-container">
+        <h2>Armashop</h2>
+
+        <div class="input-container">
+          <input type="text" />
+          <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="search-icons">
+          <i class="fa-regular fa-user fa-2x"></i>
+          <i class="fa-regular fa-heart fa-2x"></i>
+          <div class="shopping-cart-icon">
+            <i class="fa-solid fa-bag-shopping fa-2x" id="cart-button"></i>
+            <span class="shopping-cart-number"></span>
+          </div>
+        </div>
+      </div>
+
+      <!--CONTENU DU PANIER -->
+      <div class="cart-container">
+        <!-- item de carte -->
+        <div class="cart-item">
+          <img src="./images/products/clothes-1.jpg" alt="" />
+          <div class="cart-items-text">
+            <p>Produit 1</p>
+            <span class="cart-item-price">30000</span>
+            <span>FCFA</span>
+          </div>
+          <a href="#"><i class="fa-solid fa-trash"></i></a>
+        </div>
+        <!-- fin de item de carte -->
+
+        <!-- item de carte -->
+        <div class="cart-item">
+          <img src="./images/products/clothes-1.jpg" alt="" />
+          <div class="cart-items-text">
+            <p>Produit 3</p>
+            <span class="cart-item-price">30000</span>
+            <span>FCFA</span>
+          </div>
+          <a href="#"><i class="fa-solid fa-trash"></i></a>
+        </div>
+        <!-- fin de item de carte -->
+
+        <!--Total-->
+        <div class="cart-total">
+          <p>Total</p>
+          <span class="total-amount"></span>
+          <span>FCFA</span>
+        </div>
+      </div>
+
+      <!-- FIN DU PANIER -->
+
+      <nav class="nav">
+        <div class="toggle-menu">
+          <i class="fa-solid fa-bars fa-2x"></i>
+        </div>
+
+        <div class="nav-container">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="boutique.html">Boutique</a></li>
+            <li><a href="#">Vetements</a></li>
+            <li><a href="#">Bijoux</a></li>
+            <li><a href="#">Parfum</a></li>
+            <li><a href="propos.html">A Propos</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="one-product-banner">
+      <img src="./images/menu1.jpg" alt="" />
+    </div>
+
+    <div class="one-product-content">
+      <div class="one-product-gallery">
+        <div class="one-product-current">
+          <img src="./images/products/jacket-1.jpg" id="imgcurrent" alt="" />
+        </div>
+
+        <div class="one-product-imgs">
+          <img src="./images/products/jacket-1.jpg" alt="" />
+          <img src="./images/products/jacket-2.jpg" alt="" />
+          <img src="./images/products/jacket-3.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="one-product-description">
+        <p>Vetement</p>
+
+        <h2>Veste en cuire Lacoste</h2>
+
+        <h4>50 000 FCFA</h4>
+
+        <p>Quantite: 12</p>
+
+        <button>Ajouter au panier</button>
+
+        <h4>Description</h4>
+
+        <p>
+          Gilet sans manches en cuir de vachette aspect nubuck, pour homme de
+          coloris marron de la marque Cuirs Guignard. C'est le gilet cuir
+          traditionnel par excellence, intemporel, vous retrouvez sa coupe style
+          boléro, sport et décontracté .Ce gilet en cuir pour homme est
+          confectionné en cuir de vachette marron avec aspect légèrement velours
+          appelé nubuck et plutôt mât, vous retrouverez nos conseils d'entretien
+          pour garder son aspect le plus longtemps possible.
+        </p>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+
+    <section id="FOOTER">
+      <div class="footer-container">
+        <div class="footer-item">
+          <h4>Produits</h4>
+          <hr />
+          <ul>
+            <li><a href="#">Promotion</a></li>
+            <li><a href="#">Nouveauté</a></li>
+            <li><a href="#">Meilleurs ventes</a></li>
+            <li><a href="#">Contactez nous</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-item">
+          <h4>Notre société</h4>
+          <hr />
+          <ul>
+            <li><a href="#">Livraison</a></li>
+            <li><a href="#">Notice légal</a></li>
+            <li><a href="#">terms et conditions</a></li>
+            <li><a href="#">Paiement sécurisé</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-item">
+          <h4>Contacte</h4>
+          <hr />
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-location-dot"></i>avenue 10 rond point
+                7</a
+              >
+            </li>
+
+            <li>
+              <a href="#"> <i class="fa-solid fa-phone"></i>(+221) 45 67 45</a>
+            </li>
+
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-envelope"></i>infos@armashop.com</a
+              >
+            </li>
+
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-money-bill"></i>Paiement sécurisé</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="paiement">
+        <div>
+          <img src="./images/payment.png" alt="" />
+        </div>
+
+        <div>
+          <a href="https://abdoullahbalde.com/">
+            crée Avec passion par Abdoullah Balde</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/cart.js"></script>
+
+    <!-- produit en detail -->
+    <script src="./js/detail.js"></script>
+  </body>
+</html>
